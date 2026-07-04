@@ -1,0 +1,76 @@
+:root{--bg:#0a1628;--bg-card:#111d35;--bg-hover:#1a2744;--gold:#d4af37;--gold-light:#e8c84a;--text:#e0e6f0;--text-muted:#8892a8;--green:#4ade80;--red:#f87171;--blue:#60a5fa;--border:#1e2d4a}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;background:var(--bg-card);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
+.nav-brand{font-size:1.25rem;font-weight:700;color:var(--gold);letter-spacing:1px}
+.nav-links{display:flex;gap:1.5rem}
+.nav-links a{color:var(--text-muted);text-decoration:none;font-size:0.9rem;font-weight:500;transition:color .2s}
+.nav-links a:hover,.nav-links a.active{color:var(--gold)}
+.hero{text-align:center;padding:4rem 2rem 2rem}
+.hero h1{font-size:3rem;font-weight:800;color:var(--gold);margin-bottom:.5rem;letter-spacing:2px}
+.subtitle{font-size:1.1rem;color:var(--text-muted);margin-bottom:2rem}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;max-width:1000px;margin:0 auto 3rem;padding:0 2rem}
+.stat-card{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;text-align:center;transition:transform .2s,border-color .2s}
+.stat-card:hover{transform:translateY(-3px);border-color:var(--gold)}
+.stat-value{font-size:2rem;font-weight:700;color:var(--gold);margin-bottom:.25rem}
+.stat-label{font-size:.7rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px}
+.modules{padding:2rem;text-align:center}
+.modules h2{font-size:1.8rem;margin-bottom:.5rem}
+.modules>p{color:var(--text-muted);margin-bottom:2rem}
+.module-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem;max-width:1100px;margin:0 auto}
+.module-card{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:2rem;text-decoration:none;color:var(--text);transition:transform .3s,border-color .3s,box-shadow .3s;display:block}
+.module-card:hover{transform:translateY(-5px);border-color:var(--gold);box-shadow:0 10px 40px rgba(212,175,55,.1)}
+.module-icon{font-size:2.5rem;margin-bottom:1rem}
+.module-card h3{color:var(--gold);margin-bottom:.5rem;font-size:1.1rem}
+.module-card p{color:var(--text-muted);font-size:.85rem;line-height:1.5}
+.overview{padding:3rem 2rem;text-align:center;background:var(--bg-card);margin-top:2rem}
+.overview h2{font-size:1.8rem;margin-bottom:.5rem}
+.overview>p{color:var(--text-muted);margin-bottom:2rem}
+.overview-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem;max-width:900px;margin:0 auto}
+.overview-item{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:1.5rem}
+.overview-item strong{color:var(--gold);display:block;margin-bottom:.25rem}
+.data-section{max-width:1200px;margin:2rem auto;padding:0 2rem}
+.data-section h2{font-size:1.5rem;margin-bottom:1rem;color:var(--gold)}
+.section-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;flex-wrap:wrap;gap:1rem}
+.search-input{background:var(--bg-card);border:1px solid var(--border);border-radius:8px;padding:.5rem 1rem;color:var(--text);font-size:.9rem;width:250px}
+.search-input:focus{outline:none;border-color:var(--gold)}
+.table-responsive{overflow-x:auto}
+.data-table{width:100%;border-collapse:collapse;font-size:.85rem}
+.data-table th{background:var(--bg-card);color:var(--gold);padding:.75rem;text-align:left;border-bottom:2px solid var(--gold);cursor:pointer;user-select:none;white-space:nowrap}
+.data-table td{padding:.6rem .75rem;border-bottom:1px solid var(--border)}
+.data-table tbody tr:hover{background:var(--bg-hover)}
+.crypto-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem}
+.crypto-card{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem;transition:transform .2s}
+.crypto-card:hover{transform:translateY(-3px);border-color:var(--gold)}
+.crypto-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:.5rem}
+.crypto-symbol{font-size:1.2rem;font-weight:700;color:var(--gold)}
+.crypto-name{font-size:.8rem;color:var(--text-muted)}
+.crypto-price{font-size:1.5rem;font-weight:700;margin-bottom:.25rem}
+.crypto-change{font-size:.9rem;font-weight:600}
+.crypto-change.positive{color:var(--green)}
+.crypto-change.negative{color:var(--red)}
+.crypto-mcap{font-size:.75rem;color:var(--text-muted);margin-top:.25rem}
+.dominance-bars{max-width:600px;margin:0 auto}
+.dominance-item{display:flex;align-items:center;gap:1rem;margin-bottom:1rem}
+.dominance-item span{min-width:80px;font-size:.85rem}
+.dominance-bar{flex:1;height:24px;background:var(--bg-card);border-radius:12px;overflow:hidden}
+.dominance-fill{height:100%;background:linear-gradient(90deg,var(--gold),var(--gold-light));border-radius:12px}
+.dominance-fill.eth{background:linear-gradient(90deg,#627eea,#8b9ef5)}
+.dominance-fill.others{background:linear-gradient(90deg,var(--blue),#93c5fd)}
+.timeline{max-width:800px;margin:0 auto;position:relative;padding-left:2rem}
+.timeline::before{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--gold)}
+.timeline-item{position:relative;margin-bottom:1.5rem;padding-left:1.5rem}
+.timeline-item::before{content:'';position:absolute;left:-1.6rem;top:.4rem;width:12px;height:12px;border-radius:50%;background:var(--gold);border:2px solid var(--bg)}
+.timeline-item.crisis::before{background:var(--red)}
+.timeline-item.forecast::before{background:var(--blue)}
+.timeline-year{font-size:.8rem;color:var(--gold);font-weight:700;margin-bottom:.25rem}
+.timeline-content{background:var(--bg-card);border:1px solid var(--border);border-radius:8px;padding:1rem}
+.timeline-content h4{font-size:1rem;margin-bottom:.25rem}
+.timeline-content p{color:var(--text-muted);font-size:.85rem}
+.findings{max-width:900px;margin:0 auto}
+.finding-item{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;margin-bottom:1rem}
+.finding-item h4{color:var(--gold);margin-bottom:.5rem}
+.finding-item p{color:var(--text-muted);font-size:.9rem}
+footer{text-align:center;padding:2rem;color:var(--text-muted);font-size:.8rem;border-top:1px solid var(--border);margin-top:3rem}
+canvas{display:block;margin:2rem auto;max-width:100%}
+@media(max-width:768px){.hero h1{font-size:2rem}.nav-links{gap:.75rem;font-size:.8rem}.stats-grid{grid-template-columns:repeat(2,1fr)}.module-grid{grid-template-columns:1fr}}
