@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corporate Intelligence | Fortune 20 | ARGUS-PANTHER ULTIMA</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-brand">ARGUS-PANTHER</div>
+  <div class="nav-links">
+    <a href="index.html">Dashboard</a>
+    <a href="corporate.html" class="active">Corporate</a>
+    <a href="crypto.html">Crypto</a>
+    <a href="macro.html">Macro</a>
+    <a href="patents.html">Patents</a>
+  </div>
+</nav>
+
+<main>
+  <section class="hero">
+    <h1>Corporate Intelligence</h1>
+    <p class="subtitle">Fortune 20 Revenue Leaders & Market Intelligence</p>
+  </section>
+
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-value">25.40T</div><div class="stat-label">COMBINED MKT CAP</div></div>
+    <div class="stat-card"><div class="stat-value">20</div><div class="stat-label">COMPANIES</div></div>
+    <div class="stat-card"><div class="stat-value">7</div><div class="stat-label">SECTORS</div></div>
+    <div class="stat-card"><div class="stat-value">4.72T</div><div class="stat-label">LARGEST (NVIDIA)</div></div>
+  </div>
+
+  <section class="data-section">
+    <div class="section-header">
+      <h2>Fortune 20 Rankings</h2>
+      <input type="text" id="corpSearch" placeholder="Search companies..." class="search-input">
+    </div>
+    <div class="table-responsive">
+      <table class="data-table" id="corporateTable">
+        <thead><tr><th onclick="sortTable(0)">Rank &#8693;</th><th onclick="sortTable(1)">Company &#8693;</th><th onclick="sortTable(2)">Ticker &#8693;</th><th onclick="sortTable(3)">Price &#8693;</th><th onclick="sortTable(4)">Market Cap &#8693;</th><th onclick="sortTable(5)">Sector &#8693;</th><th onclick="sortTable(6)">Revenue &#8693;</th></tr></thead>
+        <tbody id="corpTableBody">
+          <tr><td>1</td><td>Amazon</td><td>AMZN</td><td>$242.67</td><td>$2.61T</td><td>Consumer Cyclical</td><td>$716.9B</td></tr>
+          <tr><td>2</td><td>Walmart</td><td>WMT</td><td>$111.84</td><td>$890.0B</td><td>Consumer Defensive</td><td>$713.2B</td></tr>
+          <tr><td>3</td><td>UnitedHealth</td><td>UNH</td><td>$425.36</td><td>$386.3B</td><td>Healthcare</td><td>$447.6B</td></tr>
+          <tr><td>4</td><td>Apple</td><td>AAPL</td><td>$308.63</td><td>$4.53T</td><td>Technology</td><td>$416.2B</td></tr>
+          <tr><td>5</td><td>McKesson</td><td>MCK</td><td>$786.30</td><td>$92.1B</td><td>Healthcare</td><td>$403.4B</td></tr>
+          <tr><td>6</td><td>Alphabet</td><td>GOOGL</td><td>$359.91</td><td>$4.40T</td><td>Communication Services</td><td>$402.8B</td></tr>
+          <tr><td>7</td><td>CVS Health</td><td>CVS</td><td>$104.72</td><td>$133.7B</td><td>Healthcare</td><td>$402.1B</td></tr>
+          <tr><td>8</td><td>Berkshire Hathaway</td><td>BRK-B</td><td>$507.78</td><td>$1.10T</td><td>Financial Services</td><td>$371.4B</td></tr>
+          <tr><td>9</td><td>Exxon Mobil</td><td>XOM</td><td>$137.09</td><td>$568.2B</td><td>Energy</td><td>$332.2B</td></tr>
+          <tr><td>10</td><td>Cencora</td><td>COR</td><td>$296.51</td><td>$57.7B</td><td>Healthcare</td><td>$321.3B</td></tr>
+          <tr><td>11</td><td>Microsoft</td><td>MSFT</td><td>$390.49</td><td>$2.90T</td><td>Technology</td><td>$281.7B</td></tr>
+          <tr><td>12</td><td>Costco</td><td>COST</td><td>$951.67</td><td>$422.0B</td><td>Consumer Defensive</td><td>$275.2B</td></tr>
+          <tr><td>13</td><td>Cigna</td><td>CI</td><td>$287.77</td><td>$76.1B</td><td>Healthcare</td><td>$274.9B</td></tr>
+          <tr><td>14</td><td>Cardinal Health</td><td>CAH</td><td>$238.94</td><td>$56.0B</td><td>Healthcare</td><td>$222.6B</td></tr>
+          <tr><td>15</td><td>Nvidia</td><td>NVDA</td><td>$194.83</td><td>$4.72T</td><td>Technology</td><td>$215.9B</td></tr>
+          <tr><td>16</td><td>Meta</td><td>META</td><td>$582.90</td><td>$1.48T</td><td>Communication Services</td><td>$201.0B</td></tr>
+          <tr><td>17</td><td>Elevance Health</td><td>ELV</td><td>$417.89</td><td>$90.7B</td><td>Healthcare</td><td>$199.1B</td></tr>
+          <tr><td>18</td><td>Centene</td><td>CNC</td><td>$67.86</td><td>$33.5B</td><td>Healthcare</td><td>$194.8B</td></tr>
+          <tr><td>19</td><td>Chevron</td><td>CVX</td><td>$169.20</td><td>$337.0B</td><td>Energy</td><td>$189.0B</td></tr>
+          <tr><td>20</td><td>Ford Motor</td><td>F</td><td>$13.36</td><td>$53.2B</td><td>Consumer Cyclical</td><td>$187.3B</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="data-section">
+    <h2>Sector Breakdown</h2>
+    <canvas id="sectorChart" width="400" height="300"></canvas>
+  </section>
+</main>
+
+<footer>
+  <p>Data sourced from Yahoo Finance, SEC EDGAR, S&P Global | July 4, 2026</p>
+</footer>
+
+<script src="app.js"></script>
+<script>drawSectorChart();</script>
+</body>
+</html>
