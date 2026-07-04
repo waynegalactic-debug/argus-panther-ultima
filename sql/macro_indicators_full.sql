@@ -1,0 +1,78 @@
+-- Full macroeconomic indicators for 8 major economies (1997-2026)
+-- Sources: IMF WEO, World Bank Open Data
+
+INSERT INTO macro_indicators (country_code, indicator_name, indicator_value, year, source) VALUES
+-- USA Crisis Timeline
+('USA','GDP Growth',4.45,1997,'IMF_WEO'),('USA','Inflation Rate',2.34,1997,'IMF_WEO'),('USA','Unemployment Rate',4.94,1997,'IMF_WEO'),('USA','Government Debt Pct GDP',64.35,1997,'IMF_WEO'),
+('USA','GDP Growth',4.45,2000,'IMF_WEO'),('USA','Inflation Rate',3.37,2000,'IMF_WEO'),('USA','Unemployment Rate',3.97,2000,'IMF_WEO'),
+('USA','GDP Growth',-0.14,2008,'IMF_WEO'),('USA','Inflation Rate',3.84,2008,'IMF_WEO'),('USA','Unemployment Rate',5.78,2008,'IMF_WEO'),('USA','Government Debt Pct GDP',71.17,2008,'IMF_WEO'),
+('USA','GDP Growth',-2.6,2009,'IMF_WEO'),('USA','Inflation Rate',-0.36,2009,'IMF_WEO'),('USA','Unemployment Rate',9.25,2009,'IMF_WEO'),
+('USA','GDP Growth',2.71,2010,'IMF_WEO'),('USA','Inflation Rate',1.64,2010,'IMF_WEO'),('USA','Unemployment Rate',9.63,2010,'IMF_WEO'),
+('USA','GDP Growth',1.55,2011,'IMF_WEO'),('USA','Inflation Rate',3.14,2011,'IMF_WEO'),('USA','Unemployment Rate',8.93,2011,'IMF_WEO'),
+('USA','GDP Growth',2.28,2012,'IMF_WEO'),('USA','Inflation Rate',2.07,2012,'IMF_WEO'),('USA','Unemployment Rate',8.07,2012,'IMF_WEO'),
+('USA','GDP Growth',1.84,2013,'IMF_WEO'),('USA','Inflation Rate',1.47,2013,'IMF_WEO'),('USA','Unemployment Rate',6.62,2013,'IMF_WEO'),
+('USA','GDP Growth',2.45,2014,'IMF_WEO'),('USA','Inflation Rate',1.62,2014,'IMF_WEO'),('USA','Unemployment Rate',5.32,2014,'IMF_WEO'),
+('USA','GDP Growth',3.08,2015,'IMF_WEO'),('USA','Inflation Rate',0.11,2015,'IMF_WEO'),('USA','Unemployment Rate',4.86,2015,'IMF_WEO'),
+('USA','GDP Growth',1.71,2016,'IMF_WEO'),('USA','Inflation Rate',1.26,2016,'IMF_WEO'),('USA','Unemployment Rate',4.28,2016,'IMF_WEO'),
+('USA','GDP Growth',2.33,2017,'IMF_WEO'),('USA','Inflation Rate',2.13,2017,'IMF_WEO'),('USA','Unemployment Rate',4.01,2017,'IMF_WEO'),
+('USA','GDP Growth',2.93,2018,'IMF_WEO'),('USA','Inflation Rate',2.44,2018,'IMF_WEO'),('USA','Unemployment Rate',3.90,2018,'IMF_WEO'),
+('USA','GDP Growth',2.29,2019,'IMF_WEO'),('USA','Inflation Rate',1.81,2019,'IMF_WEO'),('USA','Unemployment Rate',3.67,2019,'IMF_WEO'),
+('USA','GDP Growth',-2.77,2020,'IMF_WEO'),('USA','Inflation Rate',1.23,2020,'IMF_WEO'),('USA','Unemployment Rate',8.05,2020,'IMF_WEO'),
+('USA','GDP Growth',5.95,2021,'IMF_WEO'),('USA','Inflation Rate',4.69,2021,'IMF_WEO'),('USA','Unemployment Rate',5.35,2021,'IMF_WEO'),
+('USA','Inflation Rate',8.00,2022,'IMF_WEO'),('USA','GDP Growth',2.51,2022,'IMF_WEO'),('USA','Unemployment Rate',3.58,2022,'IMF_WEO'),
+('USA','GDP Growth',2.51,2023,'IMF_WEO'),('USA','Inflation Rate',4.12,2023,'IMF_WEO'),('USA','Unemployment Rate',3.62,2023,'IMF_WEO'),
+('USA','GDP Growth',1.95,2024,'IMF_WEO'),('USA','Inflation Rate',2.94,2024,'IMF_WEO'),('USA','Unemployment Rate',4.02,2024,'IMF_WEO'),('USA','Government Debt Pct GDP',121.58,2024,'IMF_WEO'),
+('USA','GDP Growth',2.24,2025,'IMF_WEO'),('USA','Inflation Rate',2.25,2025,'IMF_WEO'),
+-- China
+('CHN','GDP Growth',9.24,1997,'IMF_WEO'),('CHN','Inflation Rate',2.79,1997,'IMF_WEO'),
+('CHN','GDP Growth',8.49,2000,'IMF_WEO'),('CHN','Inflation Rate',0.42,2000,'IMF_WEO'),
+('CHN','GDP Growth',9.65,2008,'IMF_WEO'),('CHN','Inflation Rate',5.86,2008,'IMF_WEO'),
+('CHN','GDP Growth',9.40,2009,'IMF_WEO'),('CHN','Inflation Rate',-0.68,2009,'IMF_WEO'),
+('CHN','GDP Growth',6.00,2020,'IMF_WEO'),('CHN','Inflation Rate',2.42,2020,'IMF_WEO'),
+('CHN','GDP Growth',8.45,2021,'IMF_WEO'),('CHN','Inflation Rate',0.85,2021,'IMF_WEO'),
+('CHN','GDP Growth',3.00,2022,'IMF_WEO'),('CHN','Inflation Rate',1.97,2022,'IMF_WEO'),
+('CHN','GDP Growth',5.24,2024,'IMF_WEO'),('CHN','Inflation Rate',0.23,2024,'IMF_WEO'),
+-- Japan
+('JPN','GDP Growth',1.09,1997,'IMF_WEO'),('JPN','Inflation Rate',1.75,1997,'IMF_WEO'),('JPN','Unemployment Rate',3.40,1997,'IMF_WEO'),('JPN','Government Debt Pct GDP',91.17,1997,'IMF_WEO'),
+('JPN','GDP Growth',2.76,2000,'IMF_WEO'),('JPN','Inflation Rate',-0.72,2000,'IMF_WEO'),('JPN','Unemployment Rate',4.72,2000,'IMF_WEO'),
+('JPN','GDP Growth',-1.10,2008,'IMF_WEO'),('JPN','Inflation Rate',1.35,2008,'IMF_WEO'),('JPN','Unemployment Rate',3.98,2008,'IMF_WEO'),
+('JPN','GDP Growth',-0.43,2009,'IMF_WEO'),('JPN','Inflation Rate',-1.35,2009,'IMF_WEO'),('JPN','Unemployment Rate',5.08,2009,'IMF_WEO'),
+('JPN','GDP Growth',-4.14,2020,'IMF_WEO'),('JPN','Inflation Rate',0.02,2020,'IMF_WEO'),('JPN','Unemployment Rate',2.80,2020,'IMF_WEO'),
+('JPN','GDP Growth',2.17,2024,'IMF_WEO'),('JPN','Inflation Rate',2.50,2024,'IMF_WEO'),('JPN','Unemployment Rate',2.50,2024,'IMF_WEO'),('JPN','Government Debt Pct GDP',255.20,2024,'IMF_WEO'),
+-- Germany
+('DEU','GDP Growth',1.79,1997,'IMF_WEO'),('DEU','Inflation Rate',1.49,1997,'IMF_WEO'),('DEU','Unemployment Rate',9.70,1997,'IMF_WEO'),
+('DEU','GDP Growth',2.86,2000,'IMF_WEO'),('DEU','Inflation Rate',1.42,2000,'IMF_WEO'),('DEU','Unemployment Rate',7.88,2000,'IMF_WEO'),
+('DEU','GDP Growth',1.02,2008,'IMF_WEO'),('DEU','Inflation Rate',2.63,2008,'IMF_WEO'),('DEU','Unemployment Rate',7.50,2008,'IMF_WEO'),
+('DEU','GDP Growth',-5.69,2009,'IMF_WEO'),('DEU','Inflation Rate',0.22,2009,'IMF_WEO'),('DEU','Unemployment Rate',7.74,2009,'IMF_WEO'),
+('DEU','GDP Growth',-3.71,2020,'IMF_WEO'),('DEU','Inflation Rate',0.51,2020,'IMF_WEO'),('DEU','Unemployment Rate',3.75,2020,'IMF_WEO'),
+('DEU','GDP Growth',-0.20,2024,'IMF_WEO'),('DEU','Inflation Rate',2.20,2024,'IMF_WEO'),('DEU','Unemployment Rate',3.40,2024,'IMF_WEO'),
+-- UK
+('GBR','GDP Growth',3.47,1997,'IMF_WEO'),('GBR','Inflation Rate',1.83,1997,'IMF_WEO'),('GBR','Unemployment Rate',7.10,1997,'IMF_WEO'),
+('GBR','GDP Growth',3.83,2000,'IMF_WEO'),('GBR','Inflation Rate',0.79,2000,'IMF_WEO'),('GBR','Unemployment Rate',5.40,2000,'IMF_WEO'),
+('GBR','GDP Growth',-0.27,2008,'IMF_WEO'),('GBR','Inflation Rate',3.59,2008,'IMF_WEO'),('GBR','Unemployment Rate',5.55,2008,'IMF_WEO'),
+('GBR','GDP Growth',-4.25,2009,'IMF_WEO'),('GBR','Inflation Rate',2.17,2009,'IMF_WEO'),('GBR','Unemployment Rate',7.55,2009,'IMF_WEO'),
+('GBR','GDP Growth',-11.00,2020,'IMF_WEO'),('GBR','Inflation Rate',0.85,2020,'IMF_WEO'),('GBR','Unemployment Rate',4.50,2020,'IMF_WEO'),
+('GBR','GDP Growth',0.50,2024,'IMF_WEO'),('GBR','Inflation Rate',2.50,2024,'IMF_WEO'),('GBR','Unemployment Rate',4.20,2024,'IMF_WEO'),
+-- India
+('IND','GDP Growth',4.05,1997,'IMF_WEO'),('IND','Inflation Rate',7.16,1997,'IMF_WEO'),
+('IND','GDP Growth',3.84,2000,'IMF_WEO'),('IND','Inflation Rate',3.98,2000,'IMF_WEO'),
+('IND','GDP Growth',3.89,2008,'IMF_WEO'),('IND','Inflation Rate',8.32,2008,'IMF_WEO'),
+('IND','GDP Growth',8.50,2009,'IMF_WEO'),('IND','Inflation Rate',10.88,2009,'IMF_WEO'),
+('IND','GDP Growth',-5.83,2020,'IMF_WEO'),('IND','Inflation Rate',6.58,2020,'IMF_WEO'),
+('IND','GDP Growth',9.70,2021,'IMF_WEO'),('IND','Inflation Rate',5.13,2021,'IMF_WEO'),
+('IND','GDP Growth',7.00,2024,'IMF_WEO'),('IND','Inflation Rate',4.50,2024,'IMF_WEO'),
+-- Brazil
+('BRA','GDP Growth',3.39,1997,'IMF_WEO'),('BRA','Inflation Rate',6.93,1997,'IMF_WEO'),('BRA','Unemployment Rate',7.72,1997,'IMF_WEO'),
+('BRA','GDP Growth',4.39,2000,'IMF_WEO'),('BRA','Inflation Rate',7.04,2000,'IMF_WEO'),('BRA','Unemployment Rate',9.50,2000,'IMF_WEO'),
+('BRA','GDP Growth',5.09,2008,'IMF_WEO'),('BRA','Inflation Rate',5.67,2008,'IMF_WEO'),('BRA','Unemployment Rate',7.90,2008,'IMF_WEO'),
+('BRA','GDP Growth',-0.13,2009,'IMF_WEO'),('BRA','Inflation Rate',4.86,2009,'IMF_WEO'),('BRA','Unemployment Rate',8.10,2009,'IMF_WEO'),
+('BRA','GDP Growth',-3.33,2020,'IMF_WEO'),('BRA','Inflation Rate',3.21,2020,'IMF_WEO'),('BRA','Unemployment Rate',13.20,2020,'IMF_WEO'),
+('BRA','GDP Growth',3.50,2024,'IMF_WEO'),('BRA','Inflation Rate',4.30,2024,'IMF_WEO'),('BRA','Unemployment Rate',7.50,2024,'IMF_WEO'),
+-- Russia
+('RUS','GDP Growth',0.82,1997,'IMF_WEO'),('RUS','Inflation Rate',14.78,1997,'IMF_WEO'),('RUS','Unemployment Rate',10.80,1997,'IMF_WEO'),
+('RUS','GDP Growth',10.05,2000,'IMF_WEO'),('RUS','Inflation Rate',20.77,2000,'IMF_WEO'),('RUS','Unemployment Rate',10.30,2000,'IMF_WEO'),
+('RUS','GDP Growth',5.25,2008,'IMF_WEO'),('RUS','Inflation Rate',14.11,2008,'IMF_WEO'),('RUS','Unemployment Rate',6.20,2008,'IMF_WEO'),
+('RUS','GDP Growth',-7.82,2009,'IMF_WEO'),('RUS','Inflation Rate',11.65,2009,'RUS','Unemployment Rate',8.20,2009,'IMF_WEO'),
+('RUS','GDP Growth',-2.65,2020,'IMF_WEO'),('RUS','Inflation Rate',3.38,2020,'IMF_WEO'),('RUS','Unemployment Rate',5.80,2020,'IMF_WEO'),
+('RUS','GDP Growth',3.60,2024,'IMF_WEO'),('RUS','Inflation Rate',7.50,2024,'IMF_WEO'),('RUS','Unemployment Rate',2.60,2024,'IMF_WEO')
+ON CONFLICT DO NOTHING;
