@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ================================================================================
-OMEGA AEGIS ULTIMA v2026.07.04 — ABSOLUTE UNIVERSAL MAXIMUM CONSOLIDATION
+IP FORCE v2026.07.04 — ABSOLUTE UNIVERSAL MAXIMUM CONSOLIDATION
 ================================================================================
 Comprehensive multi-agency IP forensics, blockchain tracing, and prosecutorial
 matrix generation. Integrates 12 plugins for deterministic analysis.
@@ -15,7 +15,7 @@ from typing import Dict, List, Tuple, Any, Optional
 import numpy as np
 
 getcontext().prec = 1024
-logger = logging.getLogger("OmegaAegisUltima")
+logger = logging.getLogger("ip_force")
 
 class UniversalMaximumConfig:
     VICTIM_NAME = "Brent Michael Skoda"
@@ -61,7 +61,7 @@ class UniversalMaximumSwarmAgent:
 
 if __name__ == "__main__":
     print("=" * 80)
-    print(" OMEGA AEGIS ULTIMA v2026.07.04 — UNIVERSAL MAXIMUM")
+    print(" IP FORCE v2026.07.04 — UNIVERSAL MAXIMUM")
     print(" 12 Plugin Integration | 194 WIPO Jurisdictions")
     print("=" * 80)
     swarm = UniversalMaximumSwarmAgent()

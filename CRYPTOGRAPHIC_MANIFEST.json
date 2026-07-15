@@ -1,8 +1,8 @@
 {
-  "system": "ARGUS-PANTHER ULTIMA",
+  "system": "IP FORCE",
   "version": "v2026.07.05-ULTIMA-FINAL",
-  "codename": "ARGUS-PANTHER ULTIMA",
-  "case_id": "ARGUS-PANTHER-20260705-ULTIMA-FINAL",
+  "codename": "IP FORCE",
+  "case_id": "IP FORCE-20260705-ULTIMA-FINAL",
   "classification": "TOP SECRET / SCI / NOFORN / PROSECUTION-READY",
   "audience": ["USSS", "White House", "US Treasury", "FBI", "DOJ", "DoD", "President Trump", "VP Vance"],
   "generated_at": "2026-07-05T02:00:00+00:00",
@@ -55,7 +55,7 @@
   ],
   "compliance": {"pep8": "COMPLIANT", "fips_140_3": "LEVEL_4", "nist_sp_800_53": "REV_5", "iso_27037": "2012", "dof_8570": "COMPLIANT", "doj_crm": "COMPLIANT", "fre_901_702_803_6": "COMPLIANT", "fisb": "COMPLIANT"},
   "deliverables": {
-    "monolithic_python_file": {"filename": "ARGUS_PANTHER_ULTIMA.py", "sha3_256": "d0ba2b5d85baddc2a17fd2c9e47d66b3", "size_bytes": 723346},
+    "monolithic_python_file": {"filename": "IP_FORCE.py", "sha3_256": "d0ba2b5d85baddc2a17fd2c9e47d66b3", "size_bytes": 723346},
     "forensic_report": {"filename": "FINAL_FORENSIC_REPORT.md", "sha3_256": "97f34b6b552f8a58", "size_bytes": 9542},
     "press_release": {"filename": "PRESS_RELEASE.md", "sha3_256": "cf7d72358e05d6f2", "size_bytes": 3454},
     "treasury_payloads": {"filename": "US_TREASURY_GENIUS_ACT_PAYLOADS.json", "sha3_256": "f37e98df44e069c1", "size_bytes": 20944},

@@ -1,4 +1,4 @@
-# ARGUS-PANTHER ULTIMA
+# IP FORCE
 
 ## Global IP Forensics & Financial Intelligence Platform
 
@@ -10,7 +10,7 @@
 
 ## Overview
 
-ARGUS-PANTHER ULTIMA is a deterministic, multi-dimensional intelligence platform that integrates **12 government and primary source data plugins** to perform comprehensive financial market analysis across two parallel tracks:
+IP FORCE is a deterministic, multi-dimensional intelligence platform that integrates **12 government and primary source data plugins** to perform comprehensive financial market analysis across two parallel tracks:
 
 - **Track A:** Traditional financial markets (March 1, 1997 — July 4, 2026)
 - **Track B:** Web3/blockchain markets (Bitcoin genesis block January 3, 2009 — July 4, 2026)
@@ -58,7 +58,7 @@ ARGUS-PANTHER ULTIMA is a deterministic, multi-dimensional intelligence platform
 ## Repository Structure
 
 ```
-argus-panther-ultima/
+IP FORCE-ultima/
 ├── README.md                          # This file
 ├── data/                              # Collected datasets
 │   ├── financial_data.json            # Fortune 20 data
@@ -73,7 +73,7 @@ argus-panther-ultima/
 │   └── macro_inserts.sql              # Macro indicators
 ├── src/                               # Source code
 │   ├── aegis_unified_engine.py        # Aegis Forensic Engine
-│   └── omega_aegis_ultima.py         # OMEGA AEGIS ULTIMA
+│   └── ip_force_ultima.py         # IP FORCE
 ├── microsite/                         # HTML5/CSS3/JS microsite
 │   ├── index.html
 │   ├── corporate.html
@@ -83,7 +83,7 @@ argus-panther-ultima/
 │   ├── styles.css
 │   └── app.js
 └── reports/                           # Generated reports
-    └── ARGUS_PANTHER_ULTIMA_FINAL_REPORT.md
+    └── IP_FORCE_FINAL_REPORT.md
 ```
 
 ## Methodology

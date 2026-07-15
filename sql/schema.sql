@@ -1,4 +1,4 @@
--- ARGUS-PANTHER ULTIMA Database Schema
+-- IP FORCE Database Schema
 -- Neon PostgreSQL | Project: floral-term-24584346
 
 CREATE TABLE IF NOT EXISTS companies (

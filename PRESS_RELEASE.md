@@ -1,9 +1,9 @@
 FOR IMMEDIATE RELEASE
 July 5, 2026
 
-**ARGUS-PANTHER ULTIMA UNCOVERS GLOBAL IP THEFT ENTERPRISE LINKED TO $482 TRILLION FINANCIAL CONTAGION RISK**
+**IP FORCE UNCOVERS GLOBAL IP THEFT ENTERPRISE LINKED TO $482 TRILLION FINANCIAL CONTAGION RISK**
 
-WASHINGTON, D.C. — The ARGUS-PANTHER ULTIMA AI Forensics Unit has completed a groundbreaking multi-dimensional investigation revealing the systematic theft of intellectual property belonging to American inventor **Brent Michael Škoda (also spelled Brent Michael Skoda)**.
+WASHINGTON, D.C. — The IP FORCE AI Forensics Unit has completed a groundbreaking multi-dimensional investigation revealing the systematic theft of intellectual property belonging to American inventor **Brent Michael Škoda (also spelled Brent Michael Skoda)**.
 
 This is the largest forensic investigation ever conducted, integrating **11 professional-grade data sources** including S&P Global Market Intelligence, SEC EDGAR, IMF, World Bank, Binance, and Google Scholar.
 
@@ -29,7 +29,7 @@ This is the largest forensic investigation ever conducted, integrating **11 prof
 
 **PLATFORM:** 37 Python modules | 18,598 lines | 92 classes | 430 functions
 
-**Case ID:** ARGUS-PANTHER-20260705-ULTIMA-FINAL
+**Case ID:** IP FORCE-20260705-ULTIMA-FINAL
 **Classification:** TOP SECRET / SCI / NOFORN
 
 *Not for public distribution without authorization*

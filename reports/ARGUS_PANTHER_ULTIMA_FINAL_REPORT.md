@@ -1,4 +1,4 @@
-# ARGUS-PANTHER ULTIMA v2.0
+# IP FORCE v2.0
 ## Global IP Forensics & Financial Intelligence Platform
 ### Universal Maximum Consolidation Report
 
@@ -11,7 +11,7 @@
 
 ## EXECUTIVE SUMMARY
 
-ARGUS-PANTHER ULTIMA v2.0 integrates all 12 available plugins to perform deterministic, exhaustive analysis across traditional financial markets (29-year span) and Web3/blockchain markets (genesis blocks to present).
+IP FORCE v2.0 integrates all 12 available plugins to perform deterministic, exhaustive analysis across traditional financial markets (29-year span) and Web3/blockchain markets (genesis blocks to present).
 
 | Metric | Value |
 |--------|-------|
@@ -113,7 +113,7 @@ ARGUS-PANTHER ULTIMA v2.0 integrates all 12 available plugins to perform determi
 2. **Interactive Microsite:** https://46ufkkjory2u6.kimi.page
 3. **Canva Report:** https://www.canva.com/d/vemFjQ1_1d-tYfa
 4. **Neon Database:** Project floral-term-24584346
-5. **Word Document:** ARGUS_PANTHER_ULTIMA_FINAL_REPORT.docx
+5. **Word Document:** IP_FORCE_FINAL_REPORT.docx
 
 ---
 

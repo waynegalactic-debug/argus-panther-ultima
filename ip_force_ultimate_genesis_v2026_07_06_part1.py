@@ -466,7 +466,7 @@ class RealDataVault:
     ]
 
     NEON_PROJECT = {
-        "id": "floral-term-24584346", "name": "argus-panther-ultima",
+        "id": "floral-term-24584346", "name": "IP FORCE-ultima",
         "region": "aws-us-west-2", "pg_version": 17,
         "proxy_host": "us-west-2.aws.neon.tech",
         "created_at": "2026-07-03T18:58:44Z",
@@ -520,16 +520,16 @@ class RealDataVault:
 
     GITHUB_REPOS = [
         {
-            "id": 1288607537, "name": "argus-panther-report",
-            "full_name": "waynegalactic-debug/argus-panther-report",
-            "description": "ARGUS-PANTHER ULTIMA: Global IP Forensics & Financial Intelligence Report",
+            "id": 1288607537, "name": "IP FORCE Report",
+            "full_name": "waynegalactic-debug/IP FORCE Report",
+            "description": "IP FORCE: Global IP Forensics & Financial Intelligence Report",
             "language": "HTML", "stars": 0, "forks": 0, "open_issues": 0,
             "updated_at": "2026-07-03T19:20:28Z", "private": False, "default_branch": "main",
         },
         {
-            "id": 1288822260, "name": "argus-panther-ultima",
+            "id": 1288822260, "name": "IP FORCE-ultima",
             "full_name": "waynegalactic-debug/argus-panther-ultima",
-            "description": "ARGUS-PANTHER ULTIMA - Global IP Forensics & Financial Intelligence Platform",
+            "description": "IP FORCE - Global IP Forensics & Financial Intelligence Platform",
             "language": "HTML", "stars": 0, "forks": 0, "open_issues": 0,
             "updated_at": "2026-07-05T02:01:39Z", "private": False, "default_branch": "main",
         },
@@ -538,7 +538,7 @@ class RealDataVault:
     CANVA_DESIGNS = [
         {
             "design_id": "DAHOW7u8MmM",
-            "title": "ARGUS-PANTHER ULTIMA: Global IP Forensics & Financial Intelligence Report",
+            "title": "IP FORCE: Global IP Forensics & Financial Intelligence Report",
             "page_count": 9, "design_types": ["custom", "unknown"],
             "edit_url": "https://www.canva.com/d/MwFuv20ikjPbCKH",
         },

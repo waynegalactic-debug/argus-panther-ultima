@@ -308,7 +308,7 @@ class ReportGenerator:
     def generate_forensic_report(self) -> str:
         self.logger.info("Generating forensic report...")
         lines = []
-        lines.append("# ARGUS-PANTHER ULTIMA: Global IP Forensic Report")
+        lines.append("# IP FORCE: Global IP Forensic Report")
         lines.append(f"**Generated:** {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}")
         lines.append(f"**Classification:** FORENSIC-INTELLIGENCE-NO-SIMULATION")
         lines.append(f"**Deterministic Hash:** {DeterministicHash.hash_entity({'seed': self.analyzer.seed, 'time': datetime.utcnow().isoformat()})[:16]}")
@@ -403,7 +403,7 @@ Date: {now.strftime('%B %d, %Y')}
 Contact: IP FORCE ULTIMA Division
 
 {'=' * 70}
-ARGUS-PANTHER ULTIMA: Global IP Forensic Intelligence Release
+IP FORCE: Global IP Forensic Intelligence Release
 {'=' * 70}
 
 WASHINGTON - The IP Force Ultima Genesis system today released its comprehensive
